@@ -101,7 +101,7 @@ function ProjectDetail() {
       <section className="bg-bone pb-24">
         <div className="mx-auto max-w-[1440px] px-6 md:px-10">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-x-8 gap-y-12">
-            {project.gallery.map((src, i) => {
+            {project.gallery.map((src: string, i: number) => {
               const spans = ["md:col-span-8", "md:col-span-4 md:mt-24", "md:col-span-12"];
               return (
                 <Reveal key={src} className={spans[i % spans.length]} delay={i * 60}>
