@@ -46,6 +46,12 @@ export const Route = createRootRoute({
       { property: "og:locale", content: "lv_LV" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#F4F1EB" },
+      { name: "twitter:title", content: "SEL RA ART — Bespoke Furniture & Joinery, Riga" },
+      { name: "description", content: "Atelier Atlas is a modern, editorial website showcasing bespoke furniture and architectural woodwork." },
+      { property: "og:description", content: "Atelier Atlas is a modern, editorial website showcasing bespoke furniture and architectural woodwork." },
+      { name: "twitter:description", content: "Atelier Atlas is a modern, editorial website showcasing bespoke furniture and architectural woodwork." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/66af3228-a7fd-4031-a5af-95fd4c07471f/id-preview-3ecd64ee--64b98728-e50e-4357-8486-659bac58420c.lovable.app-1776854652822.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/66af3228-a7fd-4031-a5af-95fd4c07471f/id-preview-3ecd64ee--64b98728-e50e-4357-8486-659bac58420c.lovable.app-1776854652822.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
